@@ -93,7 +93,7 @@ function App() {
     setTodo([...gg, tod]);
     sett("");
     } else {
-      alert("Please enter a task or click on the button to delete the task");
+      alert("Please enter a task or you added it already");
     }
     console.log(gg);
   };
